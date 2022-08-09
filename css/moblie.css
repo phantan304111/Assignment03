@@ -1,4 +1,18 @@
 @media (max-width: 500px) {
+  Section > .container {
+    padding: 16px 0;
+    width: 480px;
+    padding: 10px 20px;
+  }
+
+  .banner-img {
+    width: 500px;
+    margin-left: 0;
+    height: 520px;
+    background: black;
+    /* filter: brightness(50%); */
+    /* height: 40%; */
+  }
   .container-nav {
     text-align: center;
     display: flex;
@@ -6,13 +20,63 @@
     align-items: start;
   }
 
+  /* text padding */
+  .hobbyicon {
+    width: 48px;
+    height: 48px;
+    padding: 6px;
+  }
+  .icon {
+    padding-right: 24px;
+    font-size: 2.4em;
+  }
+  .level-grey {
+    background: #e9ecef;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+  }
+  .level {
+    background: #199cdb;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+  }
+  .job-info-title {
+    padding-left: 12px;
+    padding-top: 12px;
+  }
+  .job-info-info-name {
+    padding-left: 12px;
+  }
+  .job-info-info-time {
+    padding-left: 12px;
+  }
+  .certificate-text-title {
+    font-size: 16px;
+    padding-top: 16px;
+  }
+  .certificate-text-grey {
+    font-size: 16px;
+    color: #868e96;
+  }
+  table,
+  th,
+  tr,
+  td {
+    font-size: 16px;
+  }
   /* chinh hinh anh */
   .project-img {
-    width: 500px;
-    max-height: auto;
+    width: 460px;
+    height: auto;
+    margin: 0;
+    padding: 0;
   }
   .certificate-img {
-    width: 25%;
+    width: 40%;
     max-height: auto;
   }
   .contact {

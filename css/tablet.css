@@ -1,6 +1,15 @@
 @media (max-width: 768px) {
   Section > .container {
     padding: 16px 0;
+    width: 768px;
+    padding: 10px 20px;
+    /* section > .container {
+     
+      margin: auto;
+      display: block;
+    
+      padding: 30px 50px;
+    } */
     /* margin: auto 0; */
   }
   .banner-img {
@@ -9,6 +18,10 @@
     margin-left: auto;
     display: block;
     height: 520px;
+  }
+  .project-box {
+    color: #495057;
+    /* width: 150px; */
   }
   /* Chinh lai Nav bar, xoa phan giua */
 
@@ -24,7 +37,7 @@
   }
   /* Chinh About */
   .container-personal {
-    width: 900px;
+    width: 768px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: start;
@@ -43,9 +56,72 @@
     justify-self: center;
     width: 250px;
   }
+  /* chinh so thich */
+  .icon {
+    align-self: center;
+    font-size: 1.8em;
+    justify-self: end;
+    padding-right: 6px;
+  }
+  .hobbyicon {
+    width: 32px;
+    height: 32px;
+    padding: 4px;
+    stroke: #339af0;
+    justify-self: center;
+    border: 3px solid #339af0;
+    border-radius: 50%;
+  }
+  /* chinh ki nang */
+  .level-grey {
+    background: #e9ecef;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 25px;
+  }
+  .level {
+    background: #199cdb;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 25px;
+  }
+  /* chinh chung nhan */
+  .certificate-box:first-child {
+    border-right: 0px solid #d6c08d;
+  }
+  .certificate-img {
+    /* align-self: center; */
+  }
+  /* text */
+  .job-info-title {
+    padding-left: 6px;
+    padding-top: 6px;
+  }
+  .job-info-info-name {
+    padding-left: 6px;
+  }
+  .job-info-info-time {
+    padding-left: 6px;
+  }
+  .certificate-text-title {
+    font-size: 14px;
+    padding-top: 14px;
+  }
+  .certificate-text-grey {
+    font-size: 12px;
+    color: #868e96;
+  }
+  table,
+  th,
+  tr,
+  td {
+    font-size: 14px;
+  }
   /* chinh hinh anh */
   .project-img {
-    width: 70%px;
+    width: 80%px;
     max-height: auto;
   }
   .certificate-img {

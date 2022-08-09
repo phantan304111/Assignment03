@@ -173,11 +173,14 @@ strong {
 .job-info-title {
   align-self: center;
   justify-self: start;
+  padding-left: 6px;
+  padding-top: 6px;
 }
 .icon {
   align-self: center;
   font-size: 2.4em;
   justify-self: end;
+  padding-right: 6px;
 }
 /* Thong tin */
 .job-info-info-list {
@@ -195,15 +198,23 @@ strong {
 }
 .job-info-info-name {
   font-weight: bold;
+
+  padding-left: 6px;
+}
+.job-info-info {
+  padding-left: 6px;
 }
 .job-info-info-time {
   color: #adb5bd;
+  padding-left: 6px;
+
   display: inline-block;
 }
 .job-info-info {
   list-style: none;
   margin: 0;
   padding: 0;
+  padding-left: 6px;
 }
 .highlight {
   display: inline-block;
@@ -211,7 +222,7 @@ strong {
   background-color: #199cdb;
   color: #ffffff;
   padding: 2px 18px;
-  /* border: 2px solid #199cdb; */
+  border: 2px solid #199cdb;
   border-radius: 30%;
 }
 /* Grid so thich */
@@ -235,11 +246,14 @@ strong {
 }
 .hobby-text {
   justify-self: center;
+  text-align: center;
+
   color: #868e96;
 }
 /* Ngon ngu */
 .skill {
   list-style: none;
+  /* text-align: left; */
   /* font-weight: 500; */
 }
 .skill-level {
@@ -267,7 +281,7 @@ strong {
   gap: 48px;
 }
 .certificate-box:first-child {
-  border-right: 2px solid #d6c08d;
+  /* border-right: 2px solid #d6c08d; */
 }
 .certificate-box {
   display: flex;
@@ -286,8 +300,10 @@ strong {
   align-self: start;
 }
 .certificate-text-title {
+  padding-top: 12px;
 }
 .certificate-text-grey {
+  font-size: 14px;
   color: #868e96;
 }
 /* Dự án */
@@ -295,7 +311,7 @@ strong {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   line-height: 1.7;
-  gap: 20px;
+  gap: 10px;
 }
 .project-img {
   width: 100%;
